@@ -1,4 +1,44 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 400px;
+  min-height: 200px;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+.card{
+  max-width: 400px;
+  min-height: 200px;
+  background: #423a6f;
+}
+ .img{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 35%;
+}
+input[type=text],
+input[type=text]:focus{
+  color: white;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+#submit{
+  padding: 13px;
+}
+.list-class{
+  background-color: #423a6f;
+  margin-top: 5px;
+  color: white;
+}
+.delete{
+  cursor: pointer;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
